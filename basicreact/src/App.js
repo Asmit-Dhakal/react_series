@@ -1,11 +1,16 @@
+import chai from './chai'
 import React, { Component } from 'react';
 
-
 class App extends Component {
-  render() {
+  render()
+  {
     return (
-      <h1> Chai wala </h1>
-    )
+<>
+<chai />
+    <h1> Chai wala  </h1>
+</>
+  
+    );
   }
 }
 
