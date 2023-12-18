@@ -1,16 +1,19 @@
-import chai from './chai'
+import Chai from './Chai.js'
 import React, { Component } from 'react';
 
 class App extends Component {
   render()
   {
     return (
-<>
-<chai />
-    <h1> Chai wala  </h1>
-</>
-  
-    );
+    <React.Fragment>
+      <h1>Hello everyone man goes up</h1>
+    <Chai/>
+    </React.Fragment>
+      
+    
+
+
+  );
   }
 }
 
