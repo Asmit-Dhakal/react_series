@@ -6,7 +6,6 @@ import './App.css'
 function App() {
   let [counter,setCounter] = useState(15)
   //here counter is variable and setCounter is a function /method used to update counter
-  //let counter=15
   const addValue=()=>{
     
  counter=counter+1;
@@ -14,6 +13,7 @@ function App() {
 setCounter(counter)
 console.log("Clicked",counter);
   }
+
 
 
   const removeValue=()=>{
