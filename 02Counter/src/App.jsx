@@ -8,12 +8,19 @@ function App() {
   //here counter is variable and setCounter is a function /method used to update counter
   //let counter=15
   const addValue=()=>{
-    console.log("Clicked",counter);
+    
  counter=counter+1;
 //setCounter(counter+1)
 setCounter(counter)
+console.log("Clicked",counter);
   }
-  
+
+
+  const removeValue=()=>{
+    counter=counter-1;
+    setCounter(counter)
+    console.log("Clicked",counter)
+  }
   return (
     <>
       <h1>Simple code run</h1>
@@ -22,7 +29,8 @@ setCounter(counter)
       onClick={addValue}
        >Add Value{counter}</button>
       <br/>
-      <button>Remove Value{counter}</button>
+      <button
+      onClick={removeValue}>Remove Value{counter}</button>
       <p>footer:{counter}</p>
     </>
   )
