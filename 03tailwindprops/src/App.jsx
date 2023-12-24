@@ -14,8 +14,8 @@ let newArray=[1,2,3,4]
   return (
     <>
       <h1 className='bg-green-400 text-black p-4 rounded-xl'>Tailwind test</h1>
-      <Card channel='chai or code' someObject={newArray}/>
-      <Card />
+      <Card username='chai or code' btnText='Click Me'/>
+      <Card username='Asmit dhakal' btn Text='Visit Me'/>
     </>
   )
 }
